@@ -20,13 +20,14 @@ public class Keihin : MonoBehaviour {
     {
         return raretype;
     }
-
+/*
     // レア度を設定する
     public void setRareType(int rare)
     {
         raretype = rare;
     }
-
+    */
+/*
     // レア度をランダムに設定する
     public void setRareType()
     {
@@ -36,4 +37,5 @@ public class Keihin : MonoBehaviour {
 
         setRareType((new System.Random()).Next(4));
     }
+    */
 }
