@@ -12,7 +12,10 @@ public class u_atari : MonoBehaviour {
 	void Update () {
 
 	}
- 
+ public void SetAtari(int num)
+    {
+        atari=num;
+    }
     public int GetAtari() {
         return atari;
     }
